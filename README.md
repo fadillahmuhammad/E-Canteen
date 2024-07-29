@@ -6,6 +6,7 @@
 - State Hoisting
 - MVVM Architecture
 - Shared Preference
+- Retrofit
 - Restful API
 - Building API with PHP native
 - MySQL <br />
