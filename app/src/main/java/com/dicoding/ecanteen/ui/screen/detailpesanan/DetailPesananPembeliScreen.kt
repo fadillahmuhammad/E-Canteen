@@ -136,7 +136,7 @@ fun DetailPesananPembeliScreen(
                     val telp = detailPesananPembeliResponse.dataDetailPesananPembeli?.telp
                     val imageUrl = detailPesananPembeliResponse.dataDetailPesananPembeli?.gambar
                     val imageUrlValue =
-                        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${imageUrl}"
+                        "https://my-absen.my.id/ecanteen/images/${imageUrl}"
 
                     val jamPesanConvert = jamPesan?.substring(0, 5) ?: "-"
 

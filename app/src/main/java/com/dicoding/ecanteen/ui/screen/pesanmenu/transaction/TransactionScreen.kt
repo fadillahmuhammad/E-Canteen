@@ -88,7 +88,7 @@ fun TransactionScreen(
     val saldoResponseState by ewalletViewModel.saldoResponse.collectAsState()
 
     val imageUrlValue =
-        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${gambar}"
+        "https://my-absen.my.id/ecanteen/images/${gambar}"
 
     val currentDate = remember {
         val calendar = Calendar.getInstance()

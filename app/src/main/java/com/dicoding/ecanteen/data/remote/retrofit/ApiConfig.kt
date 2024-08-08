@@ -37,7 +37,7 @@ object ApiConfig {
             .setLenient()
             .create()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://ecanteenunpam.000webhostapp.com/")
+            .baseUrl("https://my-absen.my.id/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .client(client)
             .build()

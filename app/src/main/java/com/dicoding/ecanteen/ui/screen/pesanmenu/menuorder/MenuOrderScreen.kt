@@ -92,7 +92,7 @@ fun MenuOrderScreen(
     val stok = editMenuViewModel.menustok.value.toIntOrNull() ?: 0
     val imageUrl = editMenuViewModel.menuImageUrl.value
     val imageUrlValue =
-        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${imageUrl}"
+        "https://my-absen.my.id/ecanteen/images/${imageUrl}"
 
     val stokColor = if (stok < 10) {
         MaterialTheme.colorScheme.error

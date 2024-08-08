@@ -236,7 +236,7 @@ fun EditMenuScreen(
                                             } ?: run {
                                                 val imageUrl = editMenuViewModel.menuImageUrl.value
                                                 val imageUrlValue =
-                                                    "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${imageUrl}"
+                                                    "https://my-absen.my.id/ecanteen/images/${imageUrl}"
                                                 if (imageUrl != null) {
                                                     Image(
                                                         painter = rememberAsyncImagePainter(model = imageUrlValue),

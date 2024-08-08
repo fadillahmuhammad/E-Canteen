@@ -51,7 +51,7 @@ fun CardHistoryPenjual(
     history: DataHistoryPenjualItem
 ) {
     val imageUrlValue = history.gambar?.let {
-        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/$it"
+        "https://my-absen.my.id/ecanteen/images/$it"
     }
 
     Row(

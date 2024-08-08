@@ -52,7 +52,7 @@ fun CardStore(
     onMenuClick: (Int) -> Unit,
     onPesanClick: (Int) -> Unit,
 ) {
-    val imageUrl = "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${menu.gambar}"
+    val imageUrl = "https://my-absen.my.id/ecanteen/images/${menu.gambar}"
 
     Card(
         modifier = modifier

@@ -72,7 +72,7 @@ fun DetailMenuPenjual(
     val desc = editMenuViewModel.menudesc.value
     val imageUrl = editMenuViewModel.menuImageUrl.value
     val imageUrlValue =
-        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/${imageUrl}"
+        "https://my-absen.my.id/ecanteen/images/${imageUrl}"
 
     val stokColor = if (stok < 10) {
         MaterialTheme.colorScheme.error

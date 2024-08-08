@@ -60,7 +60,7 @@ fun PesananPembeliModel(
     val jamPesan = pesanan.jamPesan?.substring(0, 5) ?: "-"
 
     val imageUrlValue = pesanan.gambar?.let {
-        "https://ecanteenunpam.000webhostapp.com/ecanteen/images/$it"
+        "https://my-absen.my.id/ecanteen/images/$it"
     }
 
     Box(
